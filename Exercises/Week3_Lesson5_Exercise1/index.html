@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exercise1</title>
+	<meta charset="utf-8">
+	<style>
+		.left{
+	float: left;
+    font-size: 40px;
+    position: relative;
+    bottom: 20px;
+    left: 20px;
+}
+.header{
+	font-family: 'Lora', serif;
+	position: relative;
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('header.jpg');
+	background-repeat: no-repeat;
+	text-align: center;
+	background-size: cover;
+	margin: auto;
+	height: 600px;
+	object-fit: cover;
+	background-position: center;
+}
+.header ul{
+	position: absolute;
+	right: 0;
+	transform: translateY(-50);
+	list-style-type: none;
+	padding-right: inherit;
+	width: 100%;
+    margin: 0;
+    text-align: end;
+    padding: 20px;
+}
+.header a{
+	color: blue;
+	font-family: Courier New;
+	display: inline;
+	padding: 10px 15px;
+	color: white;
+	text-decoration: none;
+}
+.active {
+	border: 2px solid white;
+	border-radius: 100px;
+}
+.active:hover{
+	color: black;
+	background-color: white;
+	text-decoration: none;
+	transition: 0.3s;
+}
+i,h1{
+	color: white;
+    position: relative;
+    top: 215px;
+    text-align: center;
+    font-family: 'Lora', sans-serif;
+}
+h1{
+	font-size: 57px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+button{
+	background-color: rgb(54, 179, 168);
+    color: white;
+    position: relative;
+    top: 200px;
+    text-align: center;
+    border-radius: 100px;
+    border: 0;
+    font-size: 16px;
+    padding: 10px;
+}
+button:hover{
+	opacity: 0.6;
+	cursor: pointer;
+}
+.middle{
+	font-family: 'Open Sans', sans-serif;
+}
+	</style>
+</head>
+<body>
+	<div class="header">
+		<nav>
+			<ul>
+			<a class="left" href="#">CS 193x</a>
+			<a href="#">HOME</a>
+			<a href="#">ABOUT</a>
+			<a href="#">NEWS</a>
+			<a href="#">READ ME</a>
+			<a class="active" href="#">TEXT ACTIONS</a>
+			</ul>
+		</nav>
+		<i>Sustainability</i>
+		<h1>STARTS WITH YOU</h1>
+		<button type="button">LEARN MORE</button>
+	</div>
+	<div class="middle">
+		
+	</div>
+</body>
+</html>
